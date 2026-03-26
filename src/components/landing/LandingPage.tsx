@@ -43,6 +43,14 @@ export default function LandingPage() {
 
   return (
     <Layout>
+      <div className="fixed top-0 left-0 z-30 p-4 md:p-6">
+        <img
+          src="https://cdn.poehali.dev/projects/596755d5-3c17-48ad-b475-3dc31ef3d549/bucket/a4046e77-aadc-46b1-bd9d-5e2141118d12.jpeg"
+          alt="Академия Нейрогастроэнтерологии"
+          className="h-12 md:h-16 w-auto"
+          style={{ filter: 'invert(1)' }}
+        />
+      </div>
       <nav className="fixed top-0 right-0 h-screen flex flex-col justify-center z-30 p-4">
         {sections.map((section, index) => (
           <button
